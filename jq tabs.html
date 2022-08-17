@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang = "en">
+   <head>
+      <meta charset = "utf-8">
+      <title>jQuery UI Tabs functionality</title>
+      <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css
+         " rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+      <script>
+         $(function() {
+            $( "#tabs-1" ).tabs();
+         });
+      </script>
+		
+      <style>
+         #tabs-1{font-size: 14px;}
+         .ui-widget-header {
+            background:#baec05;
+            border: 1px solid #b3e209;
+            color: #a5d3d6;
+            font-weight: bold;
+         }
+      </style>
+   </head>
+	
+   <body>
+      <div id = "tabs-1">
+         <ul>
+            <li><a href = "#tabs-2">Tab 1</a></li>
+            <li><a href = "#tabs-3">Tab 2</a></li>
+            <li><a href = "#tabs-4">Tab 3</a></li>
+         </ul>
+         <div id = "tabs-2">
+            <p>
+              hello silver oak
+            </p>
+         </div>
+         <div id = "tabs-3">
+            <p>
+               hello student
+            </p>
+         </div>
+         <div id = "tabs-4">
+            <p>
+              hello frends
+            </p>	
+            <p>
+               save program
+            </p>
+         </div>
+      </div>
+   </body>
+</html>
